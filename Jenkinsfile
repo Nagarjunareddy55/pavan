@@ -1,5 +1,5 @@
 node {
     stage ('checkout') {
-        :git branch: 'pavanproject', url: 'https://github.com/Nagarjunareddy55/pavan.git'
+        :git branch:'pavanproject',url:'https://github.com/Nagarjunareddy55/pavan.git'
         }
 }
