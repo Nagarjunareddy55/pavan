@@ -1,6 +1,5 @@
 node {
     stage ('checkout') {
-        git branch:'main',url:' https://github.com/koteswararao73/maven-web-app-youtuber.git'
-
+        :git branch: 'pavanproject', url: 'https://github.com/Nagarjunareddy55/pavan.git'
         }
 }
